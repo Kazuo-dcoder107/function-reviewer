@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+
+
+int num;
+void printEvenNumbers(){
+    cout<<"Enter a number: ";
+    cin>>num;
+    
+    for(int i=1; i<=num; i++){
+        if(i % 2 == 0){
+            cout<<i<<endl;
+        }
+    }
+}
+int main(){
+    
+    printEvenNumbers();
+    return 0;
+}
